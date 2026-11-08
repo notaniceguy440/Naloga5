@@ -1,95 +1,70 @@
-Android aplikacija z več aktivnostmi
+# Android aplikacija z več aktivnostmi
 
-Opis projekta
+## Opis projekta
 
 Projekt predstavlja Android aplikacijo, izdelano v okolju Android Studio, katere namen je spoznavanje delovanja in povezovanja več aktivnosti znotraj ene aplikacije.
 
 Aplikacija vsebuje tri aktivnosti: MainActivity, HelloActivity in ThirdActivity. Glavni poudarek je na navigaciji med aktivnostmi, prenosu podatkov s pomočjo eksplicitnih namenov (Intent) ter uporabi potezne navigacije.
 
-Funkcionalnosti
+## Funkcionalnosti
 
-Števec: Povečevanje vrednosti števca s klikom na gumb Count.
+- Števec: povečevanje vrednosti števca s klikom na gumb Count.
+- Več aktivnosti: navigacija med tremi različnimi zasloni aplikacije.
+- Prenos podatkov: prenos trenutne vrednosti števca med aktivnostmi z uporabo metod putExtra() in getIntExtra().
+- Navigacija z gumbi: prehajanje med aktivnostmi s klikom na gumbe.
+- Potezna navigacija: prehajanje med aktivnostmi z uporabo potegov prsta po zaslonu.
 
-Več aktivnosti: Navigacija med tremi različnimi zasloni aplikacije.
+## Struktura aplikacije
 
-Prenos podatkov: Prenos trenutne vrednosti števca med aktivnostmi z uporabo metod putExtra() in getIntExtra().
-
-Navigacija z gumbi: Prehajanje med aktivnostmi s klikom na gumbe.
-
-Potezna navigacija: Prehajanje med aktivnostmi z uporabo potegov prsta po zaslonu.
-
-Struktura aplikacije
-
-1. MainActivity
+### 1. MainActivity
 
 Glavni zaslon aplikacije vsebuje:
 
-Prikaz trenutne vrednosti števca.
+- prikaz trenutne vrednosti števca,
+- gumb Count za povečevanje števca,
+- gumb za prehod na aktivnost HelloActivity,
+- gumb za prehod na aktivnost ThirdActivity.
 
-Gumb Count za povečevanje števca.
-
-Gumb za prehod na aktivnost HelloActivity.
-
-Gumb za prehod na aktivnost ThirdActivity.
-
-2. HelloActivity
+### 2. HelloActivity
 
 Drugi zaslon aplikacije prikazuje:
 
-Besedilo Hello!
+- besedilo Hello!,
+- trenutno vrednost števca, preneseno iz aktivnosti MainActivity,
+- gumb za vrnitev na glavno aktivnost MainActivity.
 
-Trenutno vrednost števca, preneseno iz aktivnosti MainActivity.
-
-Gumb za vrnitev na glavno aktivnost MainActivity.
-
-3. ThirdActivity
+### 3. ThirdActivity
 
 Tretji zaslon aplikacije prikazuje:
 
-Besedilo Activity 3.
+- besedilo Activity 3,
+- trenutno vrednost števca, preneseno iz druge aktivnosti,
+- gumbe za prehod na MainActivity in HelloActivity,
+- potezno navigacijo:
+  - poteg v levo omogoča prehod na MainActivity,
+  - poteg v desno omogoča prehod na HelloActivity.
 
-Trenutno vrednost števca, preneseno iz druge aktivnosti.
+## Uporabljene tehnologije
 
-Gumbe za prehod na MainActivity in HelloActivity.
+- Java
+- Android Studio
+- XML (oblikovanje uporabniškega vmesnika)
+- Android Intents
+- Navigacija med aktivnostmi
+- OnSwipeTouchListener
 
-Potezno navigacijo:
-
-Poteg v levo omogoča prehod na MainActivity.
-
-Poteg v desno omogoča prehod na HelloActivity.
-
-Uporabljene tehnologije
-
-Java
-
-Android Studio
-
-XML (oblikovanje uporabniškega vmesnika)
-
-Android Intents
-
-Navigacija med aktivnostmi
-
-OnSwipeTouchListener
-
-Znanja, pridobljena pri projektu
+## Znanja, pridobljena pri projektu
 
 Pri izdelavi aplikacije se spoznamo z naslednjimi koncepti razvoja Android aplikacij:
 
-Ustvarjanje in upravljanje več aktivnosti.
+- ustvarjanje in upravljanje več aktivnosti,
+- oblikovanje uporabniških vmesnikov z uporabo XML,
+- prehajanje med aktivnostmi z eksplicitnimi nameni (Intent),
+- prenos podatkov med aktivnostmi z uporabo dodatnih podatkov (Intent Extras),
+- pridobivanje prenesenih podatkov z metodo getIntExtra(),
+- upravljanje zaporedja aktivnosti z uporabo Intent flags,
+- zaznavanje dotikov in izvajanje potezne navigacije.
 
-Oblikovanje uporabniških vmesnikov z uporabo XML.
-
-Prehajanje med aktivnostmi z eksplicitnimi nameni (Intent).
-
-Prenos podatkov med aktivnostmi z uporabo dodatnih podatkov (Intent Extras).
-
-Pridobivanje prenesenih podatkov z metodo getIntExtra().
-
-Upravljanje zaporedja aktivnosti z uporabo Intent flags.
-
-Zaznavanje dotikov in izvajanje potezne navigacije.
-
-Namen projekta
+## Namen projekta
 
 Glavni namen vaje je spoznati povezovanje več aktivnosti v Android aplikaciji, prenos podatkov med posameznimi zasloni ter implementacijo različnih načinov navigacije s pomočjo gumbov in potez prsta po zaslonu.
