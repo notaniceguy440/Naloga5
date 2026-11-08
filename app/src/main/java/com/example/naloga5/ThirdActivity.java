@@ -54,11 +54,11 @@ public class ThirdActivity extends AppCompatActivity {
 
                 if (Math.abs(diffX) > Math.abs(diffY)) {
                     if (Math.abs(diffX) > SWIPE_THRESHOLD && Math.abs(velocityX) > SWIPE_VELOCITY_THRESHOLD) {
-                        if (diffX > 0) {
-                            // Swipe right -> Go to MainActivity
+                        if (diffX < 0) {
+                            // Poteg proti levi (Swipe Left) -> Prehod na 1. aktivnost (MainActivity)
                             navigateToMain();
                         } else {
-                            // Swipe left -> Go to HelloActivity
+                            // Poteg proti desni (Swipe Right) -> Prehod na 2. aktivnost (HelloActivity)
                             navigateToHello();
                         }
                         return true;
