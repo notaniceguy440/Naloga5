@@ -69,5 +69,10 @@ Pri izdelavi aplikacije se spoznamo z naslednjimi koncepti razvoja Android aplik
 
 Glavni namen vaje je spoznati povezovanje več aktivnosti v Android aplikaciji, prenos podatkov med posameznimi zasloni ter implementacijo različnih načinov navigacije s pomočjo gumbov in potez prsta po zaslonu.
 
-<img width="405" height="918" alt="image" src="https://github.com/user-attachments/assets/9eb0e05b-c7fa-456c-9f7c-8f53292075f0" />
+<img width="477" height="994" alt="image" src="https://github.com/user-attachments/assets/bb691460-8288-4733-afde-4c9dc62b2ca9" />
+<img width="469" height="993" alt="image" src="https://github.com/user-attachments/assets/7fe22d72-b94b-4e87-adc7-919a28286bb5" />
+<img width="472" height="1000" alt="image" src="https://github.com/user-attachments/assets/98ed59ec-4121-4157-858d-846461f23beb" />
+
+
+
 
