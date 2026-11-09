@@ -68,3 +68,6 @@ Pri izdelavi aplikacije se spoznamo z naslednjimi koncepti razvoja Android aplik
 ## Namen projekta
 
 Glavni namen vaje je spoznati povezovanje več aktivnosti v Android aplikaciji, prenos podatkov med posameznimi zasloni ter implementacijo različnih načinov navigacije s pomočjo gumbov in potez prsta po zaslonu.
+
+<img width="405" height="918" alt="image" src="https://github.com/user-attachments/assets/9eb0e05b-c7fa-456c-9f7c-8f53292075f0" />
+
